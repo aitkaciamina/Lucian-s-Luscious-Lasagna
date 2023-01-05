@@ -1,0 +1,14 @@
+const EXPECTED_MINUTES_IN_OVEN = 40;
+function remainingMinutesInOven(actualMinutesInOven)
+{
+  return EXPECTED_MINUTES_IN_OVEN-lasagna_time_oven;
+}
+function preparationTimeInMinutes(num_lasagna_layers)
+{
+  return 2*num_lasagna_layers;
+}
+function totalTimeInMinutes(numberOfLayers,actualMinutesInOven)
+{
+  return actualMinutesInOven+numberOfLayers*2;
+}
+console.log(totalTimeInMinutes(3, 20));
